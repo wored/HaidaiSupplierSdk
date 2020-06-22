@@ -1,0 +1,19 @@
+{
+  "name": "wored/haidaisupplier-sdk",
+  "description": "海带供应链供应商接口",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "qiliu",
+      "email": "qiliuf@gmail.com"
+    }
+  ],
+  "require": {
+    "hanson/foundation-sdk": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wored\\HaidaiSupplierSdk\\": "src"
+    }
+  }
+}
