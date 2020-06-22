@@ -20,7 +20,6 @@ class Api extends AbstractAPI
      */
     public function __construct(HaidaiSupplierSdk $haidaiSupplierSdk)
     {
-        parent::__construct($haidaiSupplierSdk);
         $this->config = $haidaiSupplierSdk->getConfig();
     }
 
